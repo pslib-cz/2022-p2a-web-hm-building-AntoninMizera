@@ -1,0 +1,34 @@
+:root {
+    --color-primary: #eb6c27;
+    --color-primary-contra: white;
+    --color-text: #3a3a3a;
+    --color-text-mute: #888;
+    --color-bg: white;
+
+    --size-regular: 0.875rem;
+    --size-title: 1.875rem;
+    --size-h1: 1.875rem;
+    --size-h2: 1.375rem;
+    --size-h3: 1.25rem;
+
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-semibold: 700;
+    --weight-bold: 800;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    background-color: var(--color-bg);
+}
+
+
+@media screen and (min-width: 1280px) {
+    :root {
+        --size-regular: 1rem;
+        --size-title: 7.5rem;
+        --size-h2: 3.75rem;
+        --size-h3: 1.875rem;
+    }
+}

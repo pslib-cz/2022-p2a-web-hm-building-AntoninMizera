@@ -3,6 +3,15 @@
     
     flex-direction: column;
     justify-content: space-between;
+
+    background: var(--color-bg);
+
+    margin: 0 -1.25em;
+
+    position: fixed;
+    top: 0;
+
+    width: 100%;
 }
 
 .navbar__list {

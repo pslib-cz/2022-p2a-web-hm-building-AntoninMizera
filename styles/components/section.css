@@ -3,6 +3,7 @@
 }
 
 .section--landing {
+    padding: 0 1.25em 1.25em;
     min-height: 50vh;
 
     background: linear-gradient(to right, #24242466, #24242466), url(../../media/pageheader-1920w.jpg), #fff;
@@ -22,7 +23,7 @@
     background-size: cover;
 
     color: var(--color-text-light);
-    font-weight: var(--weight-bold);
+    font-weight: var(--weight-semibold);
 }
 
 .section--responsibilities > .section__header > p:first-of-type {
@@ -32,6 +33,10 @@
 .section__header--landing {
     text-align: center;
     color: var(--color-text-light);
+}
+
+.section__heading {
+    font-size: var(--size-h2);
 }
 
 .section__heading--highlight {

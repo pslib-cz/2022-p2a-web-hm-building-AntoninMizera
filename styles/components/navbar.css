@@ -20,6 +20,8 @@
 
 .navbar__list--right {
     display: none;
+
+    padding: 0;
 }
 
 .navbar__menu-link {
@@ -47,8 +49,11 @@
 
     vertical-align: middle;
 
-    color: var(--color-text);
-    text-decoration: none;
+    color: var(--color-primary-contra);
+}
+
+.navbar__link--menu {
+    color: var(--color-text)
 }
 
 .navbar__logo {
@@ -59,4 +64,38 @@
 .navbar__menu-item {
     display: inline-flex;
     align-items: center;
+
+    text-transform: uppercase;
+}
+
+.navbar__list--shown {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    
+    background-color: var(--color-primary);
+    margin: 0 1.25em 1.25em;
+}
+
+.navbar__list--shown::before {
+    content: "";
+    position: absolute;
+    top: -.5em;
+    right: .9em;
+
+    width: 1em;
+    height: 1em;
+    background: var(--color-primary);
+
+    transform: rotate(45deg);
+    
+}
+
+.navbar__list--right > .navbar__menu-item {
+    padding: .75em 1.5625em;
+}
+
+.navbar__link--active {
+    font-weight: var(--weight-semibold);
 }

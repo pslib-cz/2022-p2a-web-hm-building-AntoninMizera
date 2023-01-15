@@ -15,16 +15,17 @@
             <li class="navbar__menu-item"><a href="" class="navbar__link"><img src="./media/logo.png"
                         alt="Logo společnosti HM Building s.r.o." class="navbar__logo"></a></li>
             <li class="navbar__menu-link">
-                <a href="#" class="navbar__link navbar__link--menu">
+                <a class="navbar__link navbar__link--menu" id="toggle-navbar">
                     <div class="navbar__menu-link-label">MENU</div>
                     <div class="navbar__menu-link-bar" aria-hidden="true"></div>
                     <div class="navbar__menu-link-bar" aria-hidden="true"></div>
                     <div class="navbar__menu-link-bar" aria-hidden="true"></div>
                 </a>
             </li>
+
         </menu>
 
-        <menu class="navbar__list navbar__list--right" id="menu">
+        <menu class="navbar__list navbar__list--right" id="navbar-menu">
             <li class="navbar__menu-item"><a href="" class="navbar__link navbar__link--active">Domů</a></li>
             <li class="navbar__menu-item"><a href="" class="navbar__link">Služby</a></li>
             <li class="navbar__menu-item"><a href="" class="navbar__link">Reference</a></li>
@@ -64,7 +65,7 @@
         </header>
 
         <figure class="service-figure">
-            <img src="" alt="">
+            <img src="./media/sluzba-novostavby-1200w.jpg" alt="Obrázek pracovníka před novým rodinným domem">
 
             <figcaption>
                 <h3 class="service-figure__heading">Novostavby</h3>
@@ -77,7 +78,7 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="" alt="">
+            <img src="./media/sluzba-prumyslove-stavby-1920w.jpg" alt="Obrázek stavby s vysokozdvižným jeřábem">
 
             <figcaption>
                 <h3 class="service-figure__heading">Průmyslové stavby</h3>
@@ -90,7 +91,7 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="" alt="">
+            <img src="./media/sluzba-rekonstrukce-1920w.jpg" alt="Obrázek probíhající rekonstrukce rodinného domu">
 
             <figcaption>
                 <h3 class="service-figure__heading">Rekonstrukce domů a jiných staveb</h3>
@@ -103,7 +104,7 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="" alt="">
+            <img src="./media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" alt="Obrázek probíhající opravy silnice s tramvajovou tratí">
 
             <figcaption>
                 <h3 class="service-figure__heading">Komunikace a zpevněné plochy</h3>
@@ -119,9 +120,11 @@
     </section>
 
     <section class="section section--responsibilities">
-        <p class="text--bold">Naše firma nabízí své služby
-            ve stavebnictví od roku 2015. </p>
-        <p>Za kvalitu naší práce ručíme.</p>
+        <header class="section__header">
+            <p class="text--bold">Naše firma nabízí své služby
+                ve stavebnictví od roku 2015. </p>
+            <p>Za kvalitu naší práce ručíme.</p>
+        </header>
         <a href="" class="button button--primary">Přesvědčit se</a>
     </section>
 
@@ -140,19 +143,19 @@
 
         <div class="reference-container">
             <figure class="reference">
-                <img src="" alt="" class="reference__image">
+                <img src="./media/reference/reference-hasicska-zbrojnice-600w.jpg" alt="Obrázek hasičské zbrojnice" class="reference__image">
 
                 <h3 class="text text--heading">Hasičská zbrojnice</h3>
                 <p class="text">celková rekonstrukce</p>
             </figure>
             <figure class="reference">
-                <img src="" alt="" class="reference__image">
+                <img src="./media/reference/reference-pradelna-600w.jpg" alt="Obrázek prádelny" class="reference__image">
 
                 <h3 class="text text--heading">Samoobslužná prádelna</h3>
                 <p class="text">stavební úpravy a opravy</p>
             </figure>
             <figure class="reference">
-                <img src="" alt="" class="reference__image">
+                <img src="./media/reference/reference-plocha-600w.jpg" alt="Obrázek z probíhajícího pokládání zámkové dlažby před prodejnou společnosti Restyl" class="reference__image">
 
                 <h3 class="text text--heading">Venkovní plochy Restyl</h3>
                 <p class="text">provedení venkovních ploch</p>
@@ -171,6 +174,8 @@
 
         <a href="" class="button button--light">Nezávazně poptat</a>
     </footer>
+
+    <script src="./scripts/toggle-navbar.js"></script>
 </body>
 
 </html>

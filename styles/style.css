@@ -4,4 +4,6 @@
 @import url(./define.css);
 
 @import url(./components/button.css);
+@import url(./components/landing.css);
+@import url(./components/navbar.css);
 @import url(./components/section.css);

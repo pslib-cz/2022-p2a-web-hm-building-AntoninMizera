@@ -1,3 +1,31 @@
 .section {
+    padding: 1.25em;
+}
+
+.section--landing {
+    min-height: 50vh;
+
+    background: linear-gradient(to right, #24242466, #24242466), url(../../media/pageheader-1920w.jpg), #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.section__header--landing {
     text-align: center;
+    color: var(--color-text-light);
+}
+
+.section__heading--highlight {
+    color: var(--color-primary);
+}
+
+@media screen and (min-width: 1280px) {
+    .section--landing {
+        min-height: 100vh;
+    }
 }

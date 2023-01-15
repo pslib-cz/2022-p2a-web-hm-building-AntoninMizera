@@ -10,23 +10,31 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <menu class="navbar__list navbar__list--left">
+            <li class="navbar__menu-item"><a href="" class="navbar__link"><img src="./media/logo.png"
+                        alt="Logo společnosti HM Building s.r.o." class="navbar__logo"></a></li>
+            <li class="navbar__menu-link">
+                <a href="#" class="navbar__link navbar__link--menu">
+                    <div class="navbar__menu-link-label">MENU</div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                </a>
+            </li>
+        </menu>
+
+        <menu class="navbar__list navbar__list--right" id="menu">
+            <li class="navbar__menu-item"><a href="" class="navbar__link navbar__link--active">Domů</a></li>
+            <li class="navbar__menu-item"><a href="" class="navbar__link">Služby</a></li>
+            <li class="navbar__menu-item"><a href="" class="navbar__link">Reference</a></li>
+            <li class="navbar__menu-item"><a href="" class="navbar__link">O&nbsp;nás</a></li>
+            <li class="navbar__menu-item"><a href="" class="navbar__link">Kontakt</a></li>
+        </menu>
+    </nav>
+
     <section class="section section--landing">
-        <nav class="navbar">
-            <menu class="navbar__left">
-                <li><a href="" class="navbar__link"><img src="" alt="" class="navbar__logo"></a></li>
-                <li><a href="#" class="navbar__menu"></a></li>
-            </menu>
-
-            <menu class="navbar__right">
-                <li><a href="" class="navbar__link navbar__link--active"></a></li>
-                <li><a href="" class="navbar__link"></a></li>
-                <li><a href="" class="navbar__link"></a></li>
-                <li><a href="" class="navbar__link"></a></li>
-                <li><a href="" class="navbar__link"></a></li>
-            </menu>
-        </nav>
-
-        <header>
+        <header class="section__header section__header--landing">
             <h1 class="landing__heading">
                 HM Building.cz s.r.o.
             </h1>
@@ -48,7 +56,11 @@
                     služeb
                 </span>
             </h2>
-            <p></p>
+            <p>
+                Ačkoliv provádíme především průmyslové stavby, není pro nás problém postavit Vám rodinný domek na klíč,
+                nebo jen hrubou stavbu. Nejsou nám cizí ani rekonstrukce budov a jejich údržba a to včetně okolních
+                ploch.
+            </p>
         </header>
 
         <figure class="service-figure">
@@ -120,7 +132,10 @@
                 naše
                 <span class="section__heading--highlight">reference</span>
             </h2>
-            <p>Stojí za námi kvalitně vyhotovené zakázky dle konkrétních požadavků zadavatelů podepřené letitými zkušenostmi ve stavebnictví. To, že obrátit se na právě nás je vhodná volba potvrdí naši klienti, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nestydíme.</p>
+            <p>Stojí za námi kvalitně vyhotovené zakázky dle konkrétních požadavků zadavatelů podepřené letitými
+                zkušenostmi ve stavebnictví. To, že obrátit se na právě nás je vhodná volba potvrdí naši klienti, na
+                jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se
+                rozhodně nestydíme.</p>
         </header>
 
         <div class="reference-container">
@@ -128,19 +143,19 @@
                 <img src="" alt="" class="reference__image">
 
                 <h3 class="text text--heading">Hasičská zbrojnice</h3>
-                    <p class="text">celková rekonstrukce</p>
+                <p class="text">celková rekonstrukce</p>
             </figure>
             <figure class="reference">
                 <img src="" alt="" class="reference__image">
 
                 <h3 class="text text--heading">Samoobslužná prádelna</h3>
-                    <p class="text">stavební úpravy a opravy</p>
+                <p class="text">stavební úpravy a opravy</p>
             </figure>
             <figure class="reference">
                 <img src="" alt="" class="reference__image">
 
                 <h3 class="text text--heading">Venkovní plochy Restyl</h3>
-                    <p class="text">provedení venkovních ploch</p>
+                <p class="text">provedení venkovních ploch</p>
             </figure>
         </div>
 

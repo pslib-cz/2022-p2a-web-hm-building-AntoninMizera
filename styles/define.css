@@ -2,6 +2,7 @@
     --color-primary: #eb6c27;
     --color-primary-contra: white;
     --color-text: #3a3a3a;
+    --color-text-light: white;
     --color-text-mute: #888;
     --color-bg: white;
 
@@ -19,7 +20,7 @@
 
 html {
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+
     background-color: var(--color-bg);
 }
 

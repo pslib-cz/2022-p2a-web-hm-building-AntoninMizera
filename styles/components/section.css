@@ -22,7 +22,11 @@
     background-size: cover;
 
     color: var(--color-text-light);
-    font-weight: var(--weight-bold)
+    font-weight: var(--weight-bold);
+}
+
+.section--responsibilities > .section__header > p:first-of-type {
+    margin-top: 0;
 }
 
 .section__header--landing {

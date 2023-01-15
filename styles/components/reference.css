@@ -1,0 +1,29 @@
+.reference {
+    margin: 1.25em 0;
+    text-align: center;
+}
+.reference__image-wrapper {
+    height: 25vh;
+}
+
+.reference__image {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.reference__heading {
+    font-size: var(--size-h2);
+
+    margin-bottom: .5em;
+}
+
+.reference__subheading {
+    margin: 0;
+
+    font-weight: var(--weight-light);
+}

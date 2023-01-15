@@ -15,6 +15,16 @@
     justify-content: end;
 }
 
+.section--responsibilities {
+    background: linear-gradient(to right, #242424CC, #242424CC), url(../../media/background-CTAblock-4460w.jpg), #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--color-text-light);
+    font-weight: var(--weight-bold)
+}
+
 .section__header--landing {
     text-align: center;
     color: var(--color-text-light);

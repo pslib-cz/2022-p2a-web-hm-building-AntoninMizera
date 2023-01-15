@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>HM Building.cz s.r.o.</title>
 </head>
@@ -12,7 +15,7 @@
 <body>
     <nav class="navbar">
         <menu class="navbar__list navbar__list--left">
-            <li class="navbar__menu-item"><a href="" class="navbar__link"><img src="./media/logo.png"
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link"><img src="./media/logo.png"
                         alt="Logo společnosti HM Building s.r.o." class="navbar__logo"></a></li>
             <li class="navbar__menu-link">
                 <a class="navbar__link navbar__link--menu" id="toggle-navbar">
@@ -26,7 +29,7 @@
         </menu>
 
         <menu class="navbar__list navbar__list--right" id="navbar-menu">
-            <li class="navbar__menu-item"><a href="" class="navbar__link navbar__link--active">Domů</a></li>
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link navbar__link--active">Domů</a></li>
             <li class="navbar__menu-item"><a href="" class="navbar__link">Služby</a></li>
             <li class="navbar__menu-item"><a href="" class="navbar__link">Reference</a></li>
             <li class="navbar__menu-item"><a href="" class="navbar__link">O&nbsp;nás</a></li>
@@ -65,7 +68,11 @@
         </header>
 
         <figure class="service-figure">
-            <img src="./media/sluzba-novostavby-1200w.jpg" alt="Obrázek pracovníka před novým rodinným domem">
+            <div class="service-figure__image-wrapper">
+                <img class="service-figure__image" src="./media/sluzba-novostavby-1200w.jpg"
+                    alt="Obrázek pracovníka před novým rodinným domem">
+            </div>
+
 
             <figcaption>
                 <h3 class="service-figure__heading">Novostavby</h3>
@@ -78,7 +85,11 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="./media/sluzba-prumyslove-stavby-1920w.jpg" alt="Obrázek stavby s vysokozdvižným jeřábem">
+            <div class="service-figure__image-wrapper">
+                <img class="service-figure__image" src="./media/sluzba-prumyslove-stavby-1920w.jpg"
+                    alt="Obrázek stavby s vysokozdvižným jeřábem">
+            </div>
+
 
             <figcaption>
                 <h3 class="service-figure__heading">Průmyslové stavby</h3>
@@ -91,7 +102,11 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="./media/sluzba-rekonstrukce-1920w.jpg" alt="Obrázek probíhající rekonstrukce rodinného domu">
+            <div class="service-figure__image-wrapper">
+                <img class="service-figure__image" src="./media/sluzba-rekonstrukce-1920w.jpg"
+                    alt="Obrázek probíhající rekonstrukce rodinného domu">
+            </div>
+
 
             <figcaption>
                 <h3 class="service-figure__heading">Rekonstrukce domů a jiných staveb</h3>
@@ -104,7 +119,11 @@
             </figcaption>
         </figure>
         <figure class="service-figure">
-            <img src="./media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" alt="Obrázek probíhající opravy silnice s tramvajovou tratí">
+            <div class="service-figure__image-wrapper">
+                <img class="service-figure__image" src="./media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg"
+                    alt="Obrázek probíhající opravy silnice s tramvajovou tratí">
+            </div>
+
 
             <figcaption>
                 <h3 class="service-figure__heading">Komunikace a zpevněné plochy</h3>
@@ -143,26 +162,42 @@
 
         <div class="reference-container">
             <figure class="reference">
-                <img src="./media/reference/reference-hasicska-zbrojnice-600w.jpg" alt="Obrázek hasičské zbrojnice" class="reference__image">
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-hasicska-zbrojnice-600w.jpg" alt="Obrázek hasičské zbrojnice"
+                        class="reference__image">
+                </div>
 
-                <h3 class="text text--heading">Hasičská zbrojnice</h3>
-                <p class="text">celková rekonstrukce</p>
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Hasičská zbrojnice</h3>
+                    <p class="text reference__subheading">celková rekonstrukce</p>
+                </figcaption>
             </figure>
             <figure class="reference">
-                <img src="./media/reference/reference-pradelna-600w.jpg" alt="Obrázek prádelny" class="reference__image">
-
-                <h3 class="text text--heading">Samoobslužná prádelna</h3>
-                <p class="text">stavební úpravy a opravy</p>
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-pradelna-600w.jpg" alt="Obrázek prádelny"
+                        class="reference__image">
+                </div>
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Samoobslužná prádelna</h3>
+                    <p class="text reference__subheading">stavební úpravy a opravy</p>
+                </figcaption>
             </figure>
             <figure class="reference">
-                <img src="./media/reference/reference-plocha-600w.jpg" alt="Obrázek z probíhajícího pokládání zámkové dlažby před prodejnou společnosti Restyl" class="reference__image">
-
-                <h3 class="text text--heading">Venkovní plochy Restyl</h3>
-                <p class="text">provedení venkovních ploch</p>
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-plocha-600w.jpg"
+                        alt="Obrázek z probíhajícího pokládání zámkové dlažby před prodejnou společnosti Restyl"
+                        class="reference__image">
+                </div>
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Venkovní plochy Restyl</h3>
+                    <p class="text reference__subheading">provedení venkovních ploch</p>
+                </figcaption>
             </figure>
         </div>
 
-        <a href="" class="button button--primary">Více referencí</a>
+        <div class="references-cta">
+            <a href="" class="button button--primary">Více referencí</a>
+        </div>
     </section>
 
     <footer class="footer">
@@ -170,9 +205,9 @@
             Plácneme si pro Váš projekt?
         </h3>
 
-        <p class="text text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <p class="text">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
 
-        <a href="" class="button button--light">Nezávazně poptat</a>
+        <a href="" class="button button--light footer__cta">Nezávazně poptat</a>
     </footer>
 
     <script src="./scripts/toggle-navbar.js"></script>

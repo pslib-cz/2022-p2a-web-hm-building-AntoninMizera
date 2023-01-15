@@ -1,0 +1,16 @@
+.footer {
+    padding: 1.25em;
+
+    background: var(--color-primary);
+    color: var(--color-text-light);
+
+    text-align: center;
+}
+
+.footer__heading {
+    font-size: var(--size-h2);
+}
+
+.footer__cta {
+    padding: 1.25em 3.03125em;
+}

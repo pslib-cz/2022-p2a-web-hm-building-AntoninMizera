@@ -22,6 +22,7 @@ async function walk(dir = fromFileUrl(new URL("..", import.meta.url))) {
             
             if (!resp.ok) {
                 console.error(`Response from W3C validator API not HTTP 200 OK`);
+                Deno.exit(1);
             } else {
                 const jsonData = await resp.json().catch(() => {
                     console.error(`Invalid response data from W3C validator API`);

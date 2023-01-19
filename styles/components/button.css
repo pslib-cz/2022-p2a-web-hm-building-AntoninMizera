@@ -4,6 +4,7 @@
     padding: .75em 2.5em;
     font-weight: var(--weight-semibold);
     text-decoration: none;
+    border: none;
 }
 
 .button--primary {

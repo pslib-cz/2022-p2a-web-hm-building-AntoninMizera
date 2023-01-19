@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>HM Building.cz s.r.o.</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <menu class="navbar__list navbar__list--left">
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link"><img src="./media/logo.png"
+                        alt="Logo společnosti HM Building s.r.o." class="navbar__logo"></a></li>
+            <li class="navbar__menu-link">
+                <a class="navbar__link navbar__link--menu" id="toggle-navbar">
+                    <div class="navbar__menu-link-label">MENU</div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                </a>
+            </li>
+
+        </menu>
+
+        <menu class="navbar__list navbar__list--right" id="navbar-menu">
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link">Domů</a></li>
+            <li class="navbar__menu-item"><a href="./index.html#services" class="navbar__link">Služby</a></li>
+            <li class="navbar__menu-item"><a href="./references.html" class="navbar__link">Reference</a></li>
+            <li class="navbar__menu-item"><a href="./about-us.html" class="navbar__link">O&nbsp;nás</a></li>
+            <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link--active">Kontakt</a></li>
+        </menu>
+    </nav>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__heading section__heading--main">
+                Kontaktujte nás
+            </h1>
+            <p>Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.</p>
+        </header>
+
+        <div class="contact-container">
+            <div class="contact-container__list">
+                <div class="contact-container__list-element">
+                    <i class="contact-container__icon">
+                        <!-- ... -->
+                    </i>
+
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="contact-container__map">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <header class="section__header">
+            <h2 class="section__heading">
+                Nezávazná poptávka služeb
+            </h2>
+            <p>
+                Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.
+            </p>
+        </header>
+
+        <form action="#">
+            <label for="name">Jméno a příjmení</label>
+            <input type="text" name="name" id="name">
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="telephone">Telefon</label>
+            <input type="tel" name="telephone" id="telephone">
+            
+            <label for="service_type">Poptávaná služba</label>
+            <select name="service_type" id="service_type">
+                <option value="new_build">Novostavba</option>
+                <option value="industrial_build">Průmyslová stavba</option>
+                <option value="reconstruction">Rekonstrukce</option>
+                <option value="roadworks">Komunikace a zpevněné plochy</option>
+            </select>
+
+            <label for="note">Poznámka</label>
+            <textarea name="note" id="note"></textarea>
+
+            <input type="submit" value="Odeslat nezávaznou poptávku" class="button button--primary">
+
+        </form>
+    </section>
+
+    <script src="./scripts/toggle-navbar.js"></script>
+</body>
+
+</html>

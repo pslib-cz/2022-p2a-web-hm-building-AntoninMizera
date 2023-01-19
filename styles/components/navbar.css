@@ -6,9 +6,7 @@
 
     background: var(--color-bg);
 
-    margin: 0 -1.25em;
-
-    position: fixed;
+    position: sticky;
     top: 0;
 
     width: 100%;

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>HM Building.cz s.r.o.</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <menu class="navbar__list navbar__list--left">
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link"><img src="./media/logo.png"
+                        alt="Logo společnosti HM Building s.r.o." class="navbar__logo"></a></li>
+            <li class="navbar__menu-link">
+                <a class="navbar__link navbar__link--menu" id="toggle-navbar">
+                    <div class="navbar__menu-link-label">MENU</div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                    <div class="navbar__menu-link-bar" aria-hidden="true"></div>
+                </a>
+            </li>
+
+        </menu>
+
+        <menu class="navbar__list navbar__list--right" id="navbar-menu">
+            <li class="navbar__menu-item"><a href="./index.html" class="navbar__link">Domů</a></li>
+            <li class="navbar__menu-item"><a href="./index.html#services" class="navbar__link">Služby</a></li>
+            <li class="navbar__menu-item"><a href="#" class="navbar__link navbar__link--active">Reference</a></li>
+            <li class="navbar__menu-item"><a href="./about-us.html" class="navbar__link">O&nbsp;nás</a></li>
+            <li class="navbar__menu-item"><a href="./contact.html" class="navbar__link">Kontakt</a></li>
+        </menu>
+    </nav>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__heading section__heading--main">
+                Reference
+            </h1>
+            <p>Stojí za námi kvalitně vyhotovené zakázky dle konkrétních požadavků zadavatelů podepřené letitými
+                zkušenostmi ve stavebnictví. To, že obrátit se na právě nás je vhodná volba potvrdí naši klienti, na
+                jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se
+                rozhodně nestydíme.</p>
+        </header>
+
+        <div class="reference-container">
+            <figure class="reference">
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-hasicska-zbrojnice-600w.jpg" alt="Obrázek hasičské zbrojnice"
+                        class="reference__image">
+                </div>
+
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Hasičská zbrojnice</h3>
+                    <p class="text reference__subheading">celková rekonstrukce</p>
+                </figcaption>
+            </figure>
+            <figure class="reference">
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-pradelna-600w.jpg" alt="Obrázek prádelny"
+                        class="reference__image">
+                </div>
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Samoobslužná prádelna</h3>
+                    <p class="text reference__subheading">stavební úpravy a opravy</p>
+                </figcaption>
+            </figure>
+            <figure class="reference">
+                <div class="reference__image-wrapper">
+                    <img src="./media/reference/reference-plocha-600w.jpg"
+                        alt="Obrázek z probíhajícího pokládání zámkové dlažby před prodejnou společnosti Restyl"
+                        class="reference__image">
+                </div>
+                <figcaption class="reference__description">
+                    <h3 class="text reference__heading">Venkovní plochy Restyl</h3>
+                    <p class="text reference__subheading">provedení venkovních ploch</p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer__heading">
+            Plácneme si pro Váš projekt?
+        </h3>
+
+        <p class="text">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+
+        <a href="" class="button button--light footer__cta">Nezávazně poptat</a>
+    </footer>
+
+    <script src="./scripts/toggle-navbar.js"></script>
+</body>
+
+</html>

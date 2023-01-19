@@ -39,6 +39,10 @@
     font-size: var(--size-h2);
 }
 
+.section__heading--main {
+    font-size: var(--size-h1);
+}
+
 .section__heading--highlight {
     color: var(--color-primary);
 }

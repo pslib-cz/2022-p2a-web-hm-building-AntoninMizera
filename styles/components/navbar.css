@@ -6,7 +6,9 @@
 
     background: var(--color-bg);
 
-    position: sticky;
+    margin: 0 -1.25em;
+
+    position: fixed;
     top: 0;
 
     width: 100%;
@@ -39,16 +41,7 @@
 
 .navbar__menu-link-label {
     font-size: .8em;
-    margin: 0 .25em;
-}
-
-.navbar__menu-link-bar {
-    height: .5em;
-    width: 100%;
-
-    margin: .3125em 0;
-
-    background: linear-gradient(90deg, #EB6C27 0%, #FFBE9A 100%);
+    text-align: center;
 }
 
 .navbar__link {
@@ -89,7 +82,7 @@
     content: "";
     position: absolute;
     top: -.5em;
-    right: .9em;
+    right: 15px;
 
     width: 1em;
     height: 1em;

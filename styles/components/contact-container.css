@@ -1,0 +1,51 @@
+.contact-container {
+    margin: 0 -1.25em;
+}
+
+.contact-container__list {
+    color: var(--color-primary);
+    padding: 0 1.25em;
+}
+
+.contact-container__list-element {
+    display: flex;
+
+    margin: 2em 0;
+
+    align-items: center;
+    gap: 1em;
+}
+
+.contact-container__icon {
+    width: 2em;
+    height: 2em;
+
+    background-color: currentColor;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container__link {
+    color: inherit;
+    text-decoration: none;
+
+    font-weight: var(--weight-semibold);
+}
+
+.contact-container__map-wrapper {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contact-container__map {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}

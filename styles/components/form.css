@@ -1,0 +1,32 @@
+.form__control {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1em 0;
+}
+
+.form__label {
+    font-weight: var(--weight-semibold);
+}
+
+.form__input {
+    display: block;
+    border: solid 1px var(--color-primary);
+
+    background: white;
+
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.form__submit-button {
+    flex-grow: 1;
+
+    /* submit buttons default to white-space: pre for some reason */
+    white-space: normal;
+}
+
+.form__input--non-resizable {
+    /* Maybe consider allowing vertical resizing only? */
+    resize: none;
+}

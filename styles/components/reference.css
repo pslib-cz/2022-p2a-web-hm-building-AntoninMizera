@@ -1,4 +1,8 @@
 .reference {
+    display: block;
+
+    text-decoration: none;
+    color: inherit;
     margin: 1.25em 0;
     text-align: center;
 }

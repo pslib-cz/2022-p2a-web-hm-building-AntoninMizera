@@ -43,6 +43,7 @@
 .section__heading {
     font-size: var(--size-h2);
     font-weight: var(--weight-semibold);
+    color: var(--color-text);
 }
 
 .section__heading--main {
@@ -53,8 +54,8 @@
     color: var(--color-primary);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
     .section--landing {
-        min-height: 100vh;
+        min-height: calc(100vh - 1.25em);
     }
 }

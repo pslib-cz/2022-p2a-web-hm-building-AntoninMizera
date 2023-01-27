@@ -1,5 +1,7 @@
 .landing__cta {
     display: none;
+
+    margin-top: 1em;
 }
 
 .landing__heading {
@@ -14,6 +16,15 @@
     margin: 0;
 
     display:block;
+}
+
+@media screen and (min-width: 768px) {
+    .landing__cta {
+        display: inline-flex;
+        
+        gap: 1em;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1280px) {

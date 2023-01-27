@@ -22,6 +22,7 @@
 
 .reference__heading {
     font-size: var(--size-h2);
+    color: var(--color-text);
 
     margin-bottom: .5em;
 }

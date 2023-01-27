@@ -25,10 +25,21 @@ html {
     scroll-behavior: smooth;
 }
 
+@media screen and (min-width: 768px) {
+    :root {
+        --size-regular: 1rem;
+        --size-title: 4rem;
+
+        --size-h1: 2rem;
+        --size-h2: 1.75rem;
+        --size-h3: 2.5rem;
+    }
+}
+
 
 @media screen and (min-width: 1280px) {
     :root {
-        --size-regular: 1rem;
+        /* --size-regular: 1rem; */
         --size-title: 7.5rem;
         --size-h2: 3.75rem;
         --size-h3: 1.875rem;

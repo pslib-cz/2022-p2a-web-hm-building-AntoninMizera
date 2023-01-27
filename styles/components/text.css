@@ -1,6 +1,8 @@
 .text {
     color: var(--color-text);
+    font-size: var(--size-regular);
 }
+
 
 .text--mute {
     color: var(--color-text-mute);

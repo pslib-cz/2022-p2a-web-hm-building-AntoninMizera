@@ -14,3 +14,8 @@
 .footer__cta {
     padding: 1.25em 3.03125em;
 }
+
+.footer__subtext {
+    color: var(--color-primary-contra);
+    font-size: var(--size-regular)
+}

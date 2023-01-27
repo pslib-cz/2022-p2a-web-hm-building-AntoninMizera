@@ -23,3 +23,25 @@
     padding: 0;
     object-fit: cover;
 }
+
+.service-figure__heading {
+    color: var(--color-text);
+}
+
+@media screen and (min-width: 768px) {
+    .service-figure {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .service-figure__image-wrapper {
+        height: unset;
+        flex-basis: calc(50vw - 1.625em);
+        flex-shrink: 0;
+    }
+
+    .service-figure:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+}

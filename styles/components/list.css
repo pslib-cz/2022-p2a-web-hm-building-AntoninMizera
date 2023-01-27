@@ -1,0 +1,7 @@
+.list ::marker {
+    color: var(--color-primary);
+}
+
+.list__sublist {
+    list-style-type: disc;
+}

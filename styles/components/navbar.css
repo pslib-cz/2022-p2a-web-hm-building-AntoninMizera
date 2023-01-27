@@ -81,14 +81,16 @@
 .navbar__list--shown::before {
     content: "";
     position: absolute;
-    top: -.5em;
+    top: -1em;
     right: 15px;
 
-    width: 1em;
-    height: 1em;
-    background: var(--color-primary);
-
-    transform: rotate(45deg);
+    width: 0px;
+    height: 0px;
+    
+    border-left: solid 0.5em white;
+    border-right: solid 0.5em white;
+    border-bottom: solid 1em var(--color-primary);
+    border-top: none;
     
 }
 

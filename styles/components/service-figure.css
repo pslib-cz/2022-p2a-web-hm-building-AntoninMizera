@@ -44,4 +44,8 @@
     .service-figure:nth-of-type(even) {
         flex-direction: row-reverse;
     }
+
+    .service-figure__heading {
+        margin-top: 0;
+    }
 }

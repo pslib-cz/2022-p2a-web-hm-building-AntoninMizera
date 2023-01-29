@@ -8,6 +8,7 @@
 
     --size-regular: 0.875rem;
     --size-title: 1.875rem;
+    --size-subtitle: 1.25rem;
     --size-h1: 1.875rem;
     --size-h2: 1.375rem;
     --size-h3: 1.25rem;
@@ -30,12 +31,18 @@ html {
         --size-regular: 1rem;
         --size-title: 4rem;
 
-        --size-h1: 2rem;
+        --size-h1: 2.5rem;
+        --size-subtitle: 2.25rem;
         --size-h2: 1.75rem;
-        --size-h3: 2.5rem;
+        --size-h3: 1.5rem;
     }
 }
 
+@media screen and (min-width: 1024px) {
+    :root {
+        --size-h2: 3rem;
+    }
+}
 
 @media screen and (min-width: 1280px) {
     :root {

@@ -101,3 +101,33 @@
 .navbar__link--active {
     font-weight: var(--weight-semibold);
 }
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar__menu-link {
+        display: none;
+    }
+
+    .navbar__list--right {
+        display: flex;
+    }
+
+    .navbar__link {
+        color: var(--color-text);
+    }
+
+    .navbar__link {
+        text-decoration: none;
+    }
+
+    .navbar__link--active {
+        color: var(--color-primary-contra);
+    }
+
+    .navbar__menu-item:has(> .navbar__link--active) {
+        background-color: var(--color-primary);
+    }
+}

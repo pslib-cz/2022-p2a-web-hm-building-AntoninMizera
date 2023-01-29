@@ -7,3 +7,9 @@
         gap: 1em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .reference-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

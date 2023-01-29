@@ -11,7 +11,7 @@
 }
 
 .landing__subheading {
-    font-size: var(--size-h3);
+    font-size: var(--size-subtitle);
     font-weight: var(--weight-light);
     margin: 0;
 

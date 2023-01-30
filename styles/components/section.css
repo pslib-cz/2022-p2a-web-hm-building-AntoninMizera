@@ -44,6 +44,8 @@
     font-size: var(--size-h2);
     font-weight: var(--weight-semibold);
     color: var(--color-text);
+
+    display: block;
 }
 
 .section__heading--main {
@@ -61,8 +63,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .section__header {
+    .section__header:not(.section__header--landing) {
         text-align: center;
+        margin: 5em 0;
+    }
+
+    .section__heading {
+        margin: 1em 0;
     }
 
     .section--responsibilities .section__header {

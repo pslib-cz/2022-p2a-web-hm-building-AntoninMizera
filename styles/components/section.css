@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .section__header:not(.section__header--landing) {
+    .section__header:not(.section__header--landing, .section__header--responsibilities) {
         text-align: center;
         margin: 5em 0;
     }
@@ -74,5 +74,50 @@
 
     .section--responsibilities .section__header {
         text-align: left;
+    }
+
+    .section__heading--main {
+        font-size: var(--size-h2)
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section {
+        max-width: 1280px;
+
+        margin: 0 auto;
+        margin-bottom: 4em;
+    }
+
+    
+    .section--landing,
+    .section--responsibilities,
+    .section--has-navbar {
+        margin: unset;
+        max-width: unset;
+    }
+
+    .section--has-navbar {
+        padding-bottom: 8em;
+    }
+
+    .section--landing {
+        padding-bottom: 5.25em;
+        min-height: calc(100vh - 5.25em);
+    }
+
+    .section__container {
+        max-width: 1280px;
+        margin: 8em auto;
+    }
+
+    .section__header--responsibilities {
+        margin: 1.5em 0;
+        font-size: var(--size-h3);
+        font-weight: var(--weight-bold);
+    }
+
+    .section__header-text {
+        margin: 0;
     }
 }

@@ -28,6 +28,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .landing__heading {
+        margin-bottom: 4rem;
+    }
+
     .landing__subheading {
         font-size: var(--size-h2);
     }

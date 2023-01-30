@@ -37,7 +37,7 @@
 
     .service-figure__image-wrapper {
         height: unset;
-        flex-basis: calc(50vw - 1.625em);
+        flex-basis: 50%;
         flex-shrink: 0;
     }
 
@@ -47,5 +47,20 @@
 
     .service-figure__heading {
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .service-figure {
+        gap: 3em;
+    }
+    .service-figure__description {
+        flex-grow: 1;
+    }
+
+    .service-figure__heading {
+        text-transform: uppercase;
+        font-size: var(--size-h3);
     }
 }

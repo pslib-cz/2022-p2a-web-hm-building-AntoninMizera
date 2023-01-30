@@ -10,8 +10,10 @@
 
     position: fixed;
     top: 0;
+    left: 1.25em;
 
     width: 100%;
+    z-index: 99999;
 }
 
 .navbar__list {
@@ -129,5 +131,15 @@
 
     .navbar__menu-item:has(> .navbar__link--active) {
         background-color: var(--color-primary);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .navbar {
+        top: 1.25em;
+        left: unset;
+
+        max-width: 1510px;
+        align-self: center;
     }
 }

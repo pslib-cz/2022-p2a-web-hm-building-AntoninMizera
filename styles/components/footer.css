@@ -19,3 +19,20 @@
     color: var(--color-primary-contra);
     font-size: var(--size-regular)
 }
+
+@media screen and (min-width: 1280px) {
+    .footer__heading {
+        margin-bottom: 0;
+    }
+
+    .footer__subtext {
+        font-size: calc(var(--size-h3) * .75);
+        font-weight: var(--weight-light);
+
+        margin-bottom: 2em;
+    }
+
+    .footer {
+        padding: 3em;
+    }
+}

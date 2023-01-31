@@ -92,7 +92,8 @@
     
     .section--landing,
     .section--responsibilities,
-    .section--has-navbar {
+    .section--has-navbar,
+    .section--fullwidth {
         margin: unset;
         max-width: unset;
     }

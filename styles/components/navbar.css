@@ -94,8 +94,9 @@
     
 }
 
-.navbar__list--right > .navbar__menu-item {
+.navbar__list--right .navbar__link {
     padding: .75em 1.5625em;
+    flex-grow: 1;
 }
 
 .navbar__link--active {
@@ -124,12 +125,11 @@
         flex-direction: column;
     }
 
-    .navbar__link {
+    .navbar__list--right .navbar__link {
         color: var(--color-text);
 
         padding: .75em 1.5625em;
 
-        flex-grow: 1;
         display: flex;
         align-items: center;
     }
@@ -146,7 +146,7 @@
         font-weight: var(--weight-semibold);
     } */
 
-    .navbar__link--active, .navbar__list--right .navbar__link:hover {
+    .navbar__list--right .navbar__link--active, .navbar__list--right .navbar__link:hover {
         color: var(--color-primary-contra);
         background-color: var(--color-primary);
     }

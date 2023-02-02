@@ -46,6 +46,12 @@
     text-align: center;
 }
 
+.navbar__menu-link-label::after {
+    content: url(../../media/svg/menu.svg);
+
+    display: block;
+}
+
 .navbar__link {
     display: inline-block;
 

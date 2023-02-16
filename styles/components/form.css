@@ -1,3 +1,7 @@
+.form--halfwidth {
+    max-width: calc(100vw /3);
+}
+
 .form__control {
     display: flex;
     flex-direction: column;

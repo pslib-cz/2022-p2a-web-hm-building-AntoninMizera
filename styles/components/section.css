@@ -40,6 +40,7 @@
     color: var(--color-text-light);
 }
 
+
 .section__heading {
     font-size: var(--size-h2);
     font-weight: var(--weight-semibold);
@@ -56,6 +57,10 @@
     color: var(--color-primary);
 }
 
+.section__heading--contact {
+    font-size: var(--size-h3);
+}
+
 @media screen and (min-width: 768px) {
     .section--landing {
         min-height: calc(100vh - 1.25em);
@@ -63,10 +68,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .section__header:not(.section__header--landing, .section__header--responsibilities) {
+    .section__header:not(.section__header--landing, .section__header--responsibilities, .section__header--contact) {
         text-align: center;
         margin: 5em 0;
     }
+
+    .section__header--contact {
+        margin: 5em 0;
+    }
+    
 
     .section__heading {
         margin: 1em 0;

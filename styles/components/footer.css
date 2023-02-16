@@ -8,7 +8,9 @@
 }
 
 .footer__heading {
+    display: block;
     font-size: var(--size-h2);
+    font-weight: var(--weight-semibold);
 }
 
 .footer__cta {
@@ -21,10 +23,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .footer__heading {
-        margin-bottom: 0;
-    }
-
     .footer__subtext {
         font-size: calc(var(--size-h3) * .75);
         font-weight: var(--weight-light);
